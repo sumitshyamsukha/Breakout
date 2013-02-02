@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\ Run\ the\ program\ as\ an\ application.\ If\ args\ contains\ 2\ elements\ that\ are\ positive\r\n\ \ \ \ \ \ \ \ integers,\ then\ use\ the\ first\ for\ the\ number\ of\ bricks\ per\ row\ and\ the\ second\ for\r\n\ \ \ \ \ \ \ \ the\ number\ of\ rows\ of\ bricks.\r\n\ \ \ \ \ \ \ \ A\ hint\ on\ how\ main\ works.\ The\ main\ program\ creates\ an\ instance\ of\r\n\ \ \ \ \ \ \ \ the\ class,\ giving\ the\ constructor\ the\ width\ and\ height\ of\ the\ graphics\r\n\ \ \ \ \ \ \ \ panel.\ The\ system\ then\ calls\ method\ run()\ to\ start\ the\ computation.\r\n
+comment1.params=b
+comment1.target=void\ fixBricks(java.lang.String[])
+comment1.text=\ If\ b\ is\ null,\ doesn't\ have\ exactly\ two\ elements,\ or\ the\ elements\ are\ not\r\n\ \ \ \ \ \ \ \ positive\ integers,\ DON'T\ DO\ ANYTHING.\r\n\ \ \ \ \ \ \ \ If\ b\ is\ non-null,\ has\ exactly\ two\ elements,\ and\ they\ are\ positive\r\n\ \ \ \ \ \ \ \ integers\ with\ no\ blanks\ surrounding\ them,\ then\:\r\n\ \ \ \ \ \ \ \ Store\ the\ first\ int\ in\ BRICKS_IN_ROW,\ store\ the\ second\ int\ in\ BRICK_ROWS,\r\n\ \ \ \ \ \ \ \ and\ recompute\ BRICK_WIDTH\ using\ the\ formula\ given\ in\ its\ declaration.\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=Run\ the\ Breakout\ program.
+comment3.params=
+comment3.target=void\ createBricksAndPaddle()
+comment4.params=
+comment4.target=void\ gameLoop()
+comment5.params=
+comment5.target=void\ createBall()
+comment6.params=e
+comment6.target=void\ mouseMoved(java.awt.event.MouseEvent)
+comment6.text=\ Move\ the\ horizontal\ middle\ of\ the\ paddle\ to\ the\ x-coordinate\ of\ the\ mouse\r\n\ \ \ \ \ \ \ \ --\ but\ keep\ the\ paddle\ completely\ on\ the\ board.\r\n\ \ \ \ \ \ \ \ Called\ by\ the\ system\ when\ the\ mouse\ is\ used.\ \r\n
+comment7.params=
+comment7.target=acm.graphics.GObject\ getCollidingObject()
+comment8.params=b
+comment8.target=java.lang.String\ toString(java.lang.String[])
+comment8.text=\ \=\ representation\ of\ array\ b\:\ its\ elements\ separated\ by\ ",\ "\ and\ delimited\ by\ [].\r\nif\ b\ \=\=\ null,\ return\ null.
+numComments=9
